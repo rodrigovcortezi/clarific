@@ -26,7 +26,7 @@ document.addEventListener("turbolinks:load", function() {
     //****************************
     // Isotope Load more button
     //****************************
-    var initShow = 6; //number of images loaded on init & onclick load more button
+    var initShow = 12; //number of images loaded on init & onclick load more button
     var counter = initShow; //counter for load more button
     var iso = $grid.data('isotope'); // get Isotope instance
 
