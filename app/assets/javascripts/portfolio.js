@@ -1,7 +1,7 @@
 /*----------------------------*/
 // This is for the portfolio 3 Filterable Portfolio
 /*----------------------------*/
-$(function() {
+document.addEventListener("turbolinks:load", function() {
     "use strict";
     /*----------------------------*/
     // This is for the portfolio 4 Masonry Filterable Portfolio
