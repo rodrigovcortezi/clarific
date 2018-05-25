@@ -1,0 +1,414 @@
+<div class="top-spacer" style="background-image: url(<%= asset_url 'home-bg.jpg' %>)">
+</div>
+
+<div class="bg-darkest feature1">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 wrap-feature1-box">
+                <div class="card bg-darkest" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="card-body text-center">
+                        <div class="icon-space"><%= image_tag('feat-awareness.svg', alt:'Awareness', height:'60') %></div>
+                        <h5 class="font-medium text-white">AWARENESS</h5>
+                        <p class="m-t-10">Adianta ser bom no que faz se ninguém souber disso? Vamos mostrar seu talento para o mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 wrap-feature1-box">
+                <div class="card bg-darkest" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="card-body text-center">
+                        <div class="icon-space"><%= image_tag('feat-destaque.svg', alt:'Destaque', height:'60') %></div>
+                        <h5 class="font-medium text-white">DESTAQUE</h5>
+                        <p class="m-t-10">Com tanto conteúdo disponível por aí, posicione-se de forma destacada de sua concorrência.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 wrap-feature1-box">
+                <div class="card bg-darkest" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="card-body text-center">
+                        <div class="icon-space"><%= image_tag('feat-funil.svg', alt:'Conversão', height:'60') %></div>
+                        <h5 class="font-medium text-white">CONVERSÃO</h5>
+                        <p class="m-t-10">Torne-se o escolhido de sua audiência e aumente suas vendas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="portfolio4 bg-darkest spacer home-grad" id="work">
+    <div class="container">
+        <!-- Tittle and filter  -->
+        <div class="d-flex align-items-center">
+            <div class="">
+                <h3 class="font-medium text-white">Work, work, work...</h3></div>
+            <div class="ml-auto filterby">
+                <a href="JavaScript:void(0)" class="active" data-filter="*">Todos</a>
+                <a href="JavaScript:void(0)" data-filter=".webserie">Web Série</a>
+                <a href="JavaScript:void(0)" data-filter=".comercial">Comercial</a>
+                <a href="JavaScript:void(0)" data-filter=".institucional">Institucional</a>
+                <a href="JavaScript:void(0)" data-filter=".endomarketing">Endomarketing</a>
+                <a href="JavaScript:void(0)" data-filter=".case">Case / Ação</a>
+            </div>
+        </div>
+        <!-- End Tittle and filter  -->
+        <!-- Card Columns -->
+        <div class="row portfolio-box4">
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/infoglobo-je.jpg', alt:'Jovens Empreendedores', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/91734443">
+                        <div class="port-text">
+                            <h5>Jovens Empreendedores</h5>
+                            <span>Web Série</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter case">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/reserva-bj.jpg', alt:'Reserva', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/82234714">
+                        <div class="port-text">
+                            <h5>Língua Brasileira</h5>
+                            <span>Case / Ação</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-thiago.jpg', alt:'Thiago Santisteban', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/NO0qDfPDc_8">
+                        <div class="port-text">
+                            <h5>FDM Team</h5>
+                            <span>Websérie</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter case">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/infoglobo-retrato.jpg', alt:'Infoglobo', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/34989214">
+                        <div class="port-text">
+                            <h5>Retrato Falado - O Livreiro</h5>
+                            <span>Case / Ação</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter comercial">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/espm-ri.jpg', alt:'ESPM', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/51623423">
+                        <div class="port-text">
+                            <h5>Relações Internacionais</h5>
+                            <span>Comercial</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter case">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/itaipava-beach.jpg', alt:'Itaipava', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/84784415">
+                        <div class="port-text">
+                            <h5>Itaipava Beach Point</h5>
+                            <span>Case / Ação</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter endomarketing">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/ampla-rodeio.jpg', alt:'Ampla', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/59085416">
+                        <div class="port-text">
+                            <h5>Rodeio de Eletricistas</h5>
+                            <span>Endomarketing</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter comercial">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-unleash.jpg', alt:'Fábrica de Monstros', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/LTy2fOoZCVY">
+                        <div class="port-text">
+                            <h5>Unleash the Monster</h5>
+                            <span>Comercial</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter case">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/bony-surf.jpg', alt:'Bony Açaí', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/68163852">
+                        <div class="port-text">
+                            <h5>Circuito Mundial de Surf</h5>
+                            <span>Case / Ação</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/metro-circo.jpg', alt:'Metrô Linha 4', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/48038727">
+                        <div class="port-text">
+                            <h5>Metrô Linha 4</h5>
+                            <span>Web Série</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter case">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/infoglobo-natal.jpg', alt:'Infoglobo', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/34994860">
+                        <div class="port-text">
+                            <h5>Presente de Natal</h5>
+                            <span>Case / Ação</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter institucional">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/vertigo.jpg', alt:'Vertigo', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/34596909">
+                        <div class="port-text">
+                            <h5>Vertigo Tecnologia</h5>
+                            <span>Institucional</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-boleta.jpg', alt:'Fábrica de Monstros', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/qcZVCgaBnA8">
+                        <div class="port-text">
+                            <h5>Projeto Boleta</h5>
+                            <span>Web Série</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter comercial">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/folha-lagos.jpg', alt:'Folha dos Lagos', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/83604600">
+                        <div class="port-text">
+                            <h5>Folha dos Lagos</h5>
+                            <span>Comercial</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter endomarketing">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/ampla-idolos.jpg', alt:'Ampla', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/52875769">
+                        <div class="port-text">
+                            <h5>Ídolos - Ampla</h5>
+                            <span>Endomarketing</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter comercial">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/mtor-masterclass.jpg', alt:'MTOR', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/LEyQd1dVVSg">
+                        <div class="port-text">
+                            <h5>MTOR</h5>
+                            <span>Comercial</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter institucional">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/lempar.jpg', alt:'Lempar', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://player.vimeo.com/video/44482342">
+                        <div class="port-text">
+                            <h5>Lempar</h5>
+                            <span>Institucional</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-escolhido.jpg', alt:'Fábrica de Monstros', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/DYnIrtpuuOg">
+                        <div class="port-text">
+                            <h5>#MeAjudaFDM</h5>
+                            <span>Web Série</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter comercial">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-loja.jpg', alt:'Fábrica de Monstros', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/f4lTsEAb6LA">
+                        <div class="port-text">
+                            <h5>Loja Fábrica de Monstros</h5>
+                            <span>Comercial</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-6 filter webserie">
+                <div class="overlay-box">
+                    <%= image_tag('thumbs/fdm-caique.jpg', alt:'Fábrica de Monstros', class: 'img-fluid') %>
+                    <a href="javascript:void(0)" class="overlay video-btn" data-toggle="modal" data-target="#mymodal" data-src="https://www.youtube.com/embed/xemuYdnoTpg">
+                        <div class="port-text">
+                            <h5>FDM Team</h5>
+                            <span>Web Série</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Columns -->
+        </div>
+        <!-- End Card Columns -->
+        <!-- portfolio start -->
+    </div>
+</div>
+
+<!--
+<div class="client2 spacer bg-darkest">
+    <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+            <h2 class="title text-white">DESDE 2010 CRIAMOS VÍDEOS <strong class="text-danger">QUE AJUDAM MARCAS COMO:</strong></h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row client-box text-center">
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/linkedin.png", alt: "LinkedIn", width: '120', class: "img-fluid") %>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/espm.png", alt: "ESPM", width: '80', class: "img-fluid") %>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/reserva.png", alt: "Reserva", width: '180', class: "img-fluid") %>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/gnt.png", alt: "GNT", width: '70', class: "img-fluid") %>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/infoglobo.png", alt: "Infoglobo", width: '150', class: "img-fluid") %>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <% image_tag("clientes/itaipava.png", alt: "Itaipava", width: '90', class: "img-fluid") %>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="m-0" />
+!-->
+
+
+
+<div class="contato spacer" id="fale">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <%= image_tag("fale.svg", alt: "Fale com a gente!", width: '300', class: "img-fluid") %>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5 class="text-white title"><strong>Tiago Cortezi</strong></h5>
+                        <h6 class="subtitle">Diretor Executivo</h6>
+                        <a class="text-danger" href="mailto:tiago@clarific.com.br">tiago@clarific.com.br</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="text-white title"><strong>Ralph Richter</strong></h5>
+                        <h6 class="subtitle">Diretor Executivo</h6>
+                        <a class="text-danger" href="mailto:ralph@clarific.com.br">ralph@clarific.com.br</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center spacer">
+            <div class="col-md-7 text-center">
+                <%= image_tag('logo-clarific.svg', alt:'Clarific', height:'120') %>
+                <hr width="36%" class="bg-light op-3 mt-5">
+                <small>CR Comunicação e Tecnologia LTDA</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modals -->
+
+<div id="mymodal" class="modal fade custom-modal" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+    <a href="#" class="close-btn pull-right" data-dismiss="modal" aria-hidden="true">×</a>
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content po-relative bg-transparent">
+            <div class="modal-body p-0">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="modal-bg embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
