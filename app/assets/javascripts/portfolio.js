@@ -56,7 +56,7 @@ document.addEventListener("turbolinks:load", function() {
     }
 
     //append load more button
-    $grid.after('<div class="text-center"><a id="load-more" class="btn btn-primary btn-md btn-arrow m-t-20" href="javascript:void(0)"> <span>Carregar Mais <i class="ti-arrow-right"></i></span></a></div>');
+    $grid.after('<div class="text-center"><a id="load-more" class="btn btn-themecolor btn-md btn-arrow m-t-20" href="javascript:void(0)"> <span>Carregar Mais <i class="ti-arrow-right"></i></span></a></div>');
 
     //when load more button clicked
     $(".portfolio4 #load-more").click(function() {
