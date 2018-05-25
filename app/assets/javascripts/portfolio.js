@@ -23,6 +23,8 @@ document.addEventListener("turbolinks:load", function() {
             columnWidth: '.filter',
         }
     });
+
+
     //****************************
     // Isotope Load more button
     //****************************
