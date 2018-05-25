@@ -14,7 +14,7 @@ gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
 end
 
 
-
+gem 'pg'
 
 
 # Customs
