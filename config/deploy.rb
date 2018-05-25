@@ -2,7 +2,7 @@
 lock "~> 3.10.2"
 
 set :application, "clarific"
-set :repo_url, "git@github.com:tcortezi/clarific.git"
+set :repo_url, "https://github.com/tcortezi/clarific.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
