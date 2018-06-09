@@ -7,8 +7,11 @@ document.addEventListener("turbolinks:load", function() {
     // This is for the portfolio 4 Masonry Filterable Portfolio
     /*----------------------------*/
 
+    let $filterDiv = $('.portfolio4 .filterby');
+    $filterDiv.find('.default-filter').focus();
+
     // filter items on button click
-    $('.portfolio4 .filterby').on('click', 'a', function() {
+    $filterDiv.on('click', 'a', function() {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({
             filter: filterValue
