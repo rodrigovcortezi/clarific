@@ -13,6 +13,7 @@ document.addEventListener("turbolinks:load", function() {
         $grid.isotope({
             filter: filterValue
         });
+	loadMore(initShow);
     });
     // init Isotope
     var $grid = $('.portfolio-box4').isotope({
@@ -38,21 +39,21 @@ document.addEventListener("turbolinks:load", function() {
     function loadMore(toShow) {
         $grid.find(".hidden").removeClass("hidden");
 
-        var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
+        var elementsToHide = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
             return item.element;
         });
-        $(hiddenElems).addClass('hidden');
-        $grid.imagesLoaded().progress( function() {
-          $grid.isotope('layout');
-        });
 
-        //when no more to load, hide show more button
-        if (hiddenElems.length == 0) {
-            $("#load-more").hide();
-        } else {
-            $("#load-more").show();
-        };
+	if(elementsToHide > 0) {
+	    $(elementsToHide).addClass('hidden');
+	    $("#load-more").show();
+	} else {
+	    //when no more to load, hide show more button
+	    $("#load-more").hide();
+	}
 
+	$grid.imagesLoaded().progress( function() {
+	  $grid.isotope('layout');
+	});
     }
 
     //append load more button
